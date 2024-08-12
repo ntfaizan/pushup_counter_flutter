@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pushup_counter/pages/counter_page.dart';
 import 'package:pushup_counter/pages/login_page.dart';
 
 import 'pages/my_home_page.dart';
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: const LoginPage(),
+      // home: const LoginPage(),
+      home: const CounterPage(),
     );
   }
 }
